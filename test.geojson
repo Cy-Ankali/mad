@@ -1,0 +1,146 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#f70808",
+        "marker-size": "medium",
+        "marker-symbol": "religious-christian",
+		"title":"Schlosskirche Varel",
+		"description":"Die Schlosskirche in Varel, eine wunderschöne Kirche"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.137071132659912,
+          53.397394915165464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#e60f0f",
+        "marker-size": "medium",
+        "marker-symbol": "star-stroked",
+		"title":"Vareler Mühle",
+		"description":"Die Vareler Mühle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.143398463726044,
+          53.400615778715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#c22424",
+        "marker-size": "medium",
+        "marker-symbol": "harbor",
+		"title":"Vareler Hafen",
+		"description":"Der vareler Hafen, hier kann man gut essen besonders Fisch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.163185119628906,
+          53.40570725233784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.137564659118652,
+            53.397410908138845
+          ],
+          [
+            8.139141798019407,
+            53.3983832696287
+          ],
+          [
+            8.14135193824768,
+            53.39943876846489
+          ],
+          [
+            8.143519163131714,
+            53.40041108361888
+          ],
+          [
+            8.143398463726044,
+            53.400629371713876
+          ],
+          [
+            8.143521845340729,
+            53.40041428198734
+          ],
+          [
+            8.144474029541016,
+            53.400903629527896
+          ],
+          [
+            8.14687728881836,
+            53.401591265254154
+          ],
+          [
+            8.151522874832153,
+            53.40288335069881
+          ],
+          [
+            8.155192136764526,
+            53.40408265232222
+          ],
+          [
+            8.15835177898407,
+            53.40510283162613
+          ],
+          [
+            8.158947229385376,
+            53.40528831614404
+          ],
+          [
+            8.160282969474792,
+            53.4055057797214
+          ],
+          [
+            8.162310719490051,
+            53.40553136359862
+          ],
+          [
+            8.163195848464966,
+            53.40565288680518
+          ],
+          [
+            8.163201212882996,
+            53.40575522186781
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.137068450450897,
+            53.39740930884178
+          ],
+          [
+            8.13756600022316,
+            53.397411108050974
+          ]
+        ]
+      }
+    }
+  ]
+}
