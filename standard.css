@@ -1,0 +1,363 @@
+@media all {
+/* Mobile first - alle Dokument-Blöcke bekommen 100% Breite */
+header, article{
+    border-radius: 0px 0.5em 0.5em;
+    border: 1px solid;
+    padding: 1em;
+    margin: 1em;
+    flex: 1 100%;
+    border-color: transparent;
+}
+
+ footer{
+    background: #aeaeae;
+    border-radius: 0px 0.5em 0.5em;
+    border: 1px solid;
+    padding: 1em;
+    flex: 1 100%;
+    border-color: transparent;
+ }
+
+html
+{
+    background:  #bebebe;
+}
+
+body
+{
+	margin: 1em auto;
+	font-family: sans-serif;
+	color: #333333;
+}
+
+h1 ,h3
+{
+  	border-radius: 0 8px 8px;
+	border: 1px solid;
+    border-color: transparent;
+    text-align: center;
+    text-decoration: underline;
+ }
+
+
+hr{
+
+border: 0;
+width: 100%;
+height: 5px;
+background-color: red;
+
+}
+
+ main  {
+   	border-radius: 0 8px 8px;
+	border: 1px solid;
+    border-color: transparent;
+    text-align: center;
+}
+
+.rando {
+	items-align: center;
+}
+
+h2
+{
+    border-color: transparent;
+    background: transparent;
+}
+
+table
+{
+    background-color:transparent;
+    border: 0
+    height: 400px
+    width: 20%
+    float: left;
+    margin: 10px;
+}
+
+
+tr{
+    background-color:white
+}
+
+a{
+    color: #000080;
+    text-align:center;
+   border-color: transparent;
+}
+
+a:active {
+    color: #FF0000;
+    text-align: center;
+}
+
+.margin
+{
+    margin: 30px 0;
+}
+
+
+p
+{
+     font-size: 16px;
+     line-height: 2;
+     letter-spacing: 1px;
+     color: black;
+	 hyphens: auto; 
+	 text-align: justify
+}
+
+.vertikal-flex {
+	width: 110%;
+	height: 25vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.vertikal-flex1 {
+	width: 110%;
+	height: 30vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.vertikal-flex2 {
+	width: 110%;
+	height: 60vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+p1
+{
+
+     font-size: 16px;
+     line-height: 2;
+     letter-spacing: 1px;
+     color: black;
+     width: 750px;
+     text-align: justify;
+     margin: 10px 0;
+}
+
+img
+{
+     vertical-align: top;
+     align-content: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Damit ein Bild links neben einem Text angezeigt wird  */
+
+.links
+{
+    float: left;
+    margin: 10px;
+}
+
+/* Damit ein Bild rechts neben einem Text angezeigt wird  */
+
+.rechts
+{
+    float: right;
+    margin: 10px;
+
+}
+
+/* Damit ein Bild rechts (nur für ein deshalb id) und mehr abstand als oben neben einem Text angezeigt wird  */
+
+#rechtstwo
+{
+    float: right;
+    margin:  25px 0;
+}
+
+/* Damit ein Bild rechts und mehr abstand als oben neben einem Text angezeigt wird  */
+
+#left
+{
+    text-align: left;
+}
+
+.border
+{
+   text-align: center;
+   border-radius: 0 1em 2em;
+   border: 1px solid;
+   margin:  10px 0;
+   padding-left: 20px;
+   background-color: white;
+}
+
+
+.borderindex
+{
+   border-radius: 0 1em 2em;
+   border: 1px transparent;
+   padding-left: 20px;
+
+}
+
+.netz
+{
+    width: 100%;
+    height: 40%;
+
+}
+
+/* wird für die interaktive Karte benötigt */
+
+#meineKarte
+ {
+    height:600px;
+    width: 100%;
+    z-index: 0;
+}
+
+
+
+section
+{
+    width: 100%;
+    height: 40%;
+    border-color: transparent;
+    margin: 10px;
+}
+
+#rechtsbox
+{      /* Box für die Banner rechts */
+    width: 120px;
+    height: 100%;
+    position: absolute;
+    right: -180px;
+    border-color:transparent;
+}
+
+#linksbox {     /* Als Box für Bild auf der Fragen Seite */
+    width: 120px;
+    min-height: 498px;
+    border: 1px solid #000;
+    position: absolute;
+    left: -300px;
+    border-color:transparent;
+}
+
+#midde{
+	items-align: center;
+	align: center;
+	text-align: center;
+}
+
+
+
+
+#wrapper {   /* Einteilung, damit Boxen funktionieren */
+    width: 800px;
+    background: transparent;
+    position: relative;
+}
+
+
+figure {             /* Bildunterschrift Mittig */
+   padding: 5px;
+   float: left;
+   border: 1px solid #cccccc;
+   border-radius: 5px;
+}
+
+.white
+{
+   background-color: white;
+}
+
+#transparent
+{
+   border-color: transparent;
+
+}
+
+figure img {
+    border-radius: 3px 3px 0 0;
+}
+
+figure figcaption {
+    padding: 2px 4px 2px 4px;
+    background-color: #636363;
+    color: #cccccc;
+    font-style: italic;
+    border-radius: 0 0 3px 3px;
+}
+
+.stick {
+	list-style-type: none;
+	margin: 0;
+	overflow: hidden;
+	background-color: transparent;
+	position: sticky;
+	top: 0;
+	z-index: 5;
+}
+
+
+
+
+ul {       /*   Für unsortierte Listen bzw. unsere Navigation   */
+    list-style-type: none;
+    margin: 0 40% 0 40% ;
+    padding: 0;
+    overflow: hidden;
+    background-color:transparent;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 5px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: darkred;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+/* für Drucker  */
+@media print {
+
+.nichtdrucken {
+    display : none;
+
+ }
+}
+
+
+ @media (max-width: 450px) {    /* mobile Geräte */
+.nichtanzeigen {
+    display : none;
+    }
+}
+
+
+
